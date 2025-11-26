@@ -9,12 +9,49 @@
 </head>
 <body>
   <header>
+    <div class="header1">
     <a href="#"><img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" alt="logo youtube"></a> 
-    <form class="form-search">
-      <label for="search" hidden></label>
-      <input id="search" type="text">
-      <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-    </form>
+    <div class="div-form">
+      <form class="form-search">
+        <!-- <label for="search" hidden></label> -->
+        <input aria-label="Pesquisar vídeo" id="search" type="text" placeholder="Pesquisar">
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <button class="hover icons"><i class="fa-solid fa-microphone"></i></button>
+    </div>
+    <div class="div-menu">
+      <button class="hover btn-criar">
+        <i class="fa-solid fa-plus" style="color: #000000;"></i>
+        <span>Criar</span>
+      </button>
+      <button class="hover icons"><i class="fa-regular fa-bell"></i></button>
+      <div class="menu-dropdown">
+        <ul>
+          <li>Enviar vídeo</li>
+          <li>Transmitir ao vivo</li>
+          <li>Criar post</li>
+        </ul>
+      </div>
+      <button><img src="./perfil.jfif" alt="foto perfil"></button>
+    </div>
+    </div>
+    <div class="header2">
+      <nav>
+      <ul>
+        <li><a href="http://">Tudo</a></li>
+        <li><a href="http://">Música</a></li>
+        <li><a href="http://">Mixes</a></li>
+        <li><a href="http://">Restaurantes</a></li>
+        <li><a href="http://">Cozinhas</a></li>
+        <li><a href="http://">Músicas Lo-fi</a></li>
+        <li><a href="http://">Enviados Recentemente</a></li>
+        <li><a href="http://">Assistidos</a></li>
+        <li><a href="http://">Novidades pra você</a></li>
+      </ul>
+      </nav>
+    </div>
   </header>
 </body>
 </html>

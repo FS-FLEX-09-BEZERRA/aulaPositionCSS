@@ -4,34 +4,133 @@
   outline: 0;
   border: 0;
   box-sizing: border-box;
+  background-color: transparent;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
-  height: 2000px;
+  /* height: 2000px; */
 }
 
 header {
   position: sticky;
   top: 0;
+}
+
+.header1 {
   display: flex;
   align-items: center;
-  gap: 400px;
-  /* justify-content: space-between ; */
+  padding: 10px 30px;
+  justify-content: space-between;
+}
+
+.header2 > nav > ul  {
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.header2  a {
+ color: black;
+ border: 1px solid #ccc;
 }
 
 header img {
   height:50px;
 }
 
+.div-form {
+  display: flex;
+  gap: 15px;
+}
+
 .form-search {
   display: flex;
   justify-content: space-between;
-  width: 300px;
-  padding: 5px;
-  border: 1px solid;
-  border-radius: 10px;
+  width: 500px;
 }
 
 .form-search > input {
   width: 100%;
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid #ccc;
+  border-right: 0;
+}
+
+.form-search > input:focus {
+  border: 1px solid blue;
+}
+
+.form-search > button {
+  padding: 0 20px;
+  font-size: 20px;
+  border-radius: 0 20px 20px 0;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+
+.form-search > button:hover {
+    background-color: #eeeeee;
+}
+
+
+.div-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+
+
+.div-menu img {
+  border-radius: 50%;
+}
+
+.menu-dropdown {
+  /* display: none; */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 16px;
+  position: absolute;
+  top: 60px;
+  width: 220px;
+}
+
+
+
+.menu-dropdown li {
+  padding: 5px ;
+
+}
+
+.menu-dropdown li:hover, .hover {
+  background-color: #f8f8f8;
+}
+
+.icons {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  font-size: 20px;
+}
+
+.btn-criar {
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.hover:hover {
+  background-color: #eeeeee;
+}
+
+
+.btn-criar:active {
+  background-color: blue;
+  border: 1px solid blue;
 }
