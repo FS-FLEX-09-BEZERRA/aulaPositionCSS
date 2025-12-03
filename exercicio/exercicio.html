@@ -6,10 +6,13 @@
   <title>Clone Youtube</title>
   <link rel="stylesheet" href="exercicio.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <div class="header1">
+    <div class="header">
     <a href="#"><img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" alt="logo youtube"></a> 
     <div class="div-form">
       <form class="form-search">
@@ -34,24 +37,130 @@
           <li>Criar post</li>
         </ul>
       </div>
-      <button><img src="./perfil.jfif" alt="foto perfil"></button>
+      <button><img src="./assets/perfil.jfif" alt="foto perfil"></button>
     </div>
     </div>
-    <div class="header2">
+    <div class="header-nav">
       <nav>
       <ul>
-        <li><a href="http://">Tudo</a></li>
-        <li><a href="http://">Música</a></li>
-        <li><a href="http://">Mixes</a></li>
-        <li><a href="http://">Restaurantes</a></li>
-        <li><a href="http://">Cozinhas</a></li>
-        <li><a href="http://">Músicas Lo-fi</a></li>
-        <li><a href="http://">Enviados Recentemente</a></li>
-        <li><a href="http://">Assistidos</a></li>
-        <li><a href="http://">Novidades pra você</a></li>
+        <li><button class="button-default">Tudo</button></li>
+        <li><button>Música</button></li>
+        <li><button>Podcast</button></li>
+        <li><button>Programação</button></li>
+        <li><button>Stranger Things</button></li>
+        <li><button>Mixes</button></li>
+        <li><button>Restaurantes</button></li>
+        <li><button>Cozinhas</button></li>
+        <li><button>Músicas Lo-fi</button></li>
+        <li><button>Enviados Recentemente</button></li>
+        <li><button>Assistidos</button></li>
+        <li><button>Novidades pra você</button></li>
       </ul>
       </nav>
     </div>
   </header>
+  <main>
+    <section class="section-videos">
+      <a href="#" class="link-item-video">
+        <div class="div-img">
+          <img src="./assets/video5.avif" alt="Como criar página tipo Youtube com HTML e CSS">
+          <span>59:00</span>
+        </div>
+        <div class="div-desc-video">
+          <h1>Como criar página tipo Youtube com HTML e CSS</h1>
+          <span class="span-canal"><a href="#">iMe Criative</a></span>
+          <span>281 mil visualizações</span>
+        </div>
+      </a>
+      <a href="#" class="link-item-video">
+        <div class="div-img">
+          <img src="./assets/video2.avif" alt="Curso Completo de Web Designing">
+          <span>2:00:00</span>
+        </div>
+        <div class="div-desc-video">
+          <h1>Curso Completo de Web Designing</h1>
+          <span class="span-canal"><a href="">Desconhecido</a></span>
+          <span>12 mil visualizações</span>
+        </div>
+      </a>
+      <a href="#" class="link-item-video">
+        <div class="div-img">
+          <img src="./assets/video3.avif" alt="Algorítmos">
+          <span>30:20</span>
+        </div>
+        <div class="div-desc-video">
+          <h1>Algorítmos</h1>
+          <span class="span-canal"><a href="">Curso em Vídeo</a></span>
+          <span>40 mil visualizações</span>
+        </div>
+      </a>
+      <a href="#" class="link-item-video">
+        <div class="div-img">
+          <img src="./assets/video4.avif" alt="Curso em Vídeo - Aula 09 JavaScript">
+          <span>25:39</span>
+        </div>
+        <div class="div-desc-video">
+          <h1>Curso em Vídeo - Aula 09 JavaScript</h1>
+          <span class="span-canal"><a href="">Curso em Vídeo</a></span>
+          <span>40 mil visualizações</span>
+        </div>
+      </a>
+      <a href="#" class="link-item-video">
+        <div class="div-img">
+          <img src="./assets/video1.avif" alt="Vídeo Bibliografia Recomendada Curso em Vídeo">
+          <span>20:54</span>
+        </div>
+        <div class="div-desc-video">
+          <h1>Melhores livros para aprender HTML5 e CSS3 - @Curso em Vídeo HTML5 e CSS3</h1>
+          <span class="span-canal"><a href="">Curso em Vídeo</a></span>
+          <span>40 mil visualizações</span>
+        </div>
+      </a>
+      <a href="#" class="link-item-video">
+        <div class="div-img">
+          <img src="./assets/video6.avif" alt="Um exemplo de site @Curso em Vídeo HTML5 e CSS">
+          <span>39:40</span>
+        </div>
+        <div class="div-desc-video">
+          <h1>Um exemplo de site @Curso em Vídeo HTML5 e CSS</h1>
+          <span class="span-canal"><a href="">Curso em Vídeo</a></span>
+          <span>40 mil visualizações</span>
+        </div>
+      </a>
+      <a href="#" class="link-item-video">
+        <div class="div-img">
+          <img src="./assets/video7.avif" alt="Code with Me">
+          <span>45:30</span>
+        </div>
+        <div class="div-desc-video">
+          <h1>Code with Me - A super simple website</h1>
+          <span class="span-canal"><a href="">Desconhecido</a></span>
+          <span>12 mil visualizações</span>
+        </div>
+      </a>
+      <a href="#" class="link-item-video">
+        <div class="div-img">
+          <img src="./assets/video8.avif" alt="Build an API with Express.js">
+          <span>1:50:00</span>
+        </div>
+        <div class="div-desc-video">
+          <h1>Build an API with Express.js</h1>
+          <span class="span-canal"><a href="">Dev Club</a></span>
+          <span>30 mil visualizações</span>
+        </div>
+      </a>
+      <a href="#" class="link-item-video">
+        <div class="div-img">
+          <img src="./assets/video9.avif" alt="Formatações Adicionais @Curso em Vídeo HTML5 e CSS">
+          <span>20:10</span>
+        </div>
+        <div class="div-desc-video">
+          <h1>Formatações Adicionais @Curso em Vídeo HTML5 e CSS</h1>
+          <span class="span-canal"><a href="">Curso em Vídeo</a></span>
+          <span>40 mil visualizações</span>
+        </div>
+      </a>
+    </section>
+  </main>
 </body>
 </html>
