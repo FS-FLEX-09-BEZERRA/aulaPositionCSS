@@ -156,14 +156,25 @@ header img {
   flex-wrap: wrap;
 }
 
-.link-item-video {
+.div-item-video {
+  position: relative;
   display: flex;
+  flex-direction: column;
   width: 400px;
 }
 
-.link-item-video img {
+.div-item-video img {
   width: 400px;
   border-radius: 10px;
+}
+
+.link-video {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  width: 400px;
+  z-index: 80;
+  /* background-color: red; */
 }
 
 .div-img {
@@ -193,5 +204,7 @@ header img {
   display: block;
   color: #717171;
   font-size: 14px;
-  margin: 5px 0;
+  margin: 5px 0;  
+  position: relative;
+  z-index: 99;
 }
