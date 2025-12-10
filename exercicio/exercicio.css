@@ -208,3 +208,27 @@ header img {
   position: relative;
   z-index: 99;
 }
+
+
+@media screen and (width <= 1428px) {
+  /* header {
+    background-color: #0f0f0f;
+  } */
+  
+  .header-nav {
+    scrollbar-width: none;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+}
+
+@media screen and (width <= 1020px) {
+  .header {
+    justify-content: start;
+    gap: 40px;
+  }
+  .form-search {
+    width: 100%;
+  }
+}
