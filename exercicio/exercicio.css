@@ -28,10 +28,15 @@ header {
   justify-content: space-between;
 }
 
+.header-nav {
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
 .header-nav > nav > ul {
-  /* margin-top: 20px; */
+  margin-left: 260px;
   display: flex;
-  justify-content: center;
   gap: 15px;
 }
 
@@ -149,15 +154,38 @@ header img {
 }
 
 .sidebar {
-  top: 200px;
+  top: 60px;
   width: 230px;
-  position: absolute;
-  background-color: blueviolet;
+  position: fixed;
+  height: 90vh;
+  padding: 20px;
+}
+
+.sidebar hr {
+  width: 90%;
+  height: 1px;
+  background-color: #e3e3e3;
+  margin: 10px 0;
+}
+
+.sidebar-list > li > a {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+
+.sidebar-list > li > a:hover {
+  background-color: #e3e3e3;
+  border-radius: 6px;
+  padding: 10px 15px;
 }
 
 .sidebar-list > li > svg {
   width: 40px;
 }
+
 
 .section-videos {
   display: flex;
